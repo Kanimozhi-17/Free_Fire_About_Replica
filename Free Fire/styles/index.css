@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{ 
+    position: fixed;   
+    background-color: #EEEEEEFF;
+    margin: 0;
+    
+}
+
+.banner_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_image img{
+    display: block;    
+}
+
+.full_image{
+    width: 100vw; 
+    height: 36vh;  
+}
+
+.container{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    height: 50%;        
+}
+
+
+figure{
+    background-color: white;
+    height: 55vh; 
+    width: 59vh;
+      
+}
+
+.image_text{
+    font-family: "Rubik", sans-serif;  
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+figcaption{
+    padding-top: 4%;
+    font-weight: 700;
+    font-size: 27px;    
+}
+
+p{
+    color: #777575;
+}
+.p_tag{     
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.image_one{
+    width: 100%;
+}
+
+.date_p{
+    font-size: 13px;
+    position: absolute;
+    bottom: 1%;
+}
